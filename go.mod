@@ -1,4 +1,4 @@
-module syslogserver
+module github.com/caiwp/syslogserver
 
 go 1.13
 

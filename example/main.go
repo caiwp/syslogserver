@@ -2,7 +2,8 @@ package main
 
 import (
 	"flag"
-	"syslogserver"
+
+	"github.com/caiwp/syslogserver"
 )
 
 var (
