@@ -1,0 +1,2 @@
+# syslog-server
+syslog server
