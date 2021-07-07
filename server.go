@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-const maxBufferSize = 2 << 12 // 8k
+const maxBufferSize = 2 << 15 // 6MB
 
 func ListenUDP(address string, handler Handler) error {
 	pc, err := net.ListenPacket("udp", address)
